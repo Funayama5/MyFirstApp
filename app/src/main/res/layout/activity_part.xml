@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-176dp" />
+
+    <Button
+        android:id="@+id/chest"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="胸"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/biceps" />
+
+    <Button
+        android:id="@+id/biceps"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="上腕二頭筋"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/triceps" />
+
+    <Button
+        android:id="@+id/triceps"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="上腕三頭筋"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/shoulder" />
+
+    <Button
+        android:id="@+id/shoulder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="肩"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/back" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="背中"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/leg" />
+
+    <Button
+        android:id="@+id/leg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="脚"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/aero" />
+
+    <Button
+        android:id="@+id/aero"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/background_light"
+        android:text="有酸素運動"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

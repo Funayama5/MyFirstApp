@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Muscle Manager</string>
+    <string name="chest">胸</string>
+    <string name="biceps">上腕二頭筋</string>
+    <string name="triceps">上腕三頭筋</string>
+    <string name="shoulder">肩</string>
+    <string name="back">背中</string>
+    <string name="leg">脚</string>
+    <string name="aero">有酸素運動</string>
+    <string name="addMenu">メニューを追加</string>
+    <string name="confirm">登録内容の確認</string>
+</resources>
